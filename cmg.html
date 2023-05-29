@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Meta Tags -->
+    <title>Campus Cravings</title>
+    <link rel="icon" href="images/foodie.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <!-- Body -->
+  <body>
+    <!--`main` div contains all the content of the page -->
+    <div class="main">
+      <!--`navbar` div contains the logo and the menu -->
+      <div class="navbar">
+        <a href="index.html"><h2 id="title" class="name fadeInOut">✨ Campus
+            Cravings ✨</h2></a>
+      </div>
+      <!--`menu` div contains the menu buttons -->
+      <div class="menu">
+        <ul>
+          <li><a href="index.html"><button class="menu-button">Home</button></a></li>
+          <li><a href="recomendation.html"><button class="menu-button current">Recommendations</button></a></li>
+          <li><a href="recipe.html"><button class="menu-button">Recipes</button></a></li>
+        </div>
+
+        <!--work in progress images-->
+        <div class="photog">
+          <img src="images/giff.gif" alt="work in progress"
+            style="width:90%; height:70%" />
+        </div>
+        <div class="photob">
+          <img src="images/brb.png" alt="work in progress"
+            style="width:90%; height:70%" />
+        </div>
+      </body>
+      <!-- JavaScript -->
+      <script>
+      //JavaScript for the title animation
+        window.onload = function() {
+            const title = document.getElementById("title");
+            title.classList.add("fadeInOut");
+        };
+    </script>
+    </html>
