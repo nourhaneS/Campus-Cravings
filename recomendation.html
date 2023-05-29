@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Campus Cravings</title>
+    <link rel="icon" href="images/foodie.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <!--body-->
+  <body>
+    <!--`main` div contains all the content of the page -->
+    <div class="main3">
+      <!--`navbar` div contains the logo and the menu -->
+      <div class="navbar">
+        <a href="index.html"><h2 id="title" class="name fadeInOut">✨ Campus
+            Cravings ✨</h2></a>
+      </div>
+      <!--`menu` div contains the menu buttons -->
+      <div class="menu">
+        <ul>
+          <li><a href="index.html"><button class="menu-button">Home</button></a></li>
+          <li><a href="recomendation.html"><button class="menu-button current">Recommendations</button></a></li>
+          <li><a href="recipe.html"><button class="menu-button">Recipes</button></a></li>
+        </ul>
+      </div>
+      <!--`photon` div contains the first location -->
+      <div class="photon">
+        <!--tag contains the link and an image to the location -->
+        <a href="nyu.html">
+          <img src="images/nyuad.jpg" alt="photo of nyuad campus"
+            style="width:90%; height:70%; border: 5px solid #FFCF70FF;" />
+          <h6 class="nyu">New York University Area</h6>
+        </a>
+        <!-- the description of the location -->
+        <p>Nestled on Saadiyat Island, the New York University Abu Dhabi area is
+          home to a multicultural hub of <br> students from around the world.
+          The area hosts a blend of cuisine styles to cater to its diverse
+          community. <br> From cozy coffee shops perfect for study breaks, to a
+          variety of eateries serving global flavors, this area <br> promises
+          affordable options (thanks to all the discounts) without compromising
+          on taste. Come discover <br> mouth-watering gems around NYUAD! </p>
+      </div>
+      <!--`photom` div contains the 2nd location -->
+
+      <div class="photom">
+        <a href="cmg.html">
+          <!--tag contains the link and an image to the location -->
+          <img src="images/mamsha.jpg" alt="photo of mamsha boardwalk"
+            style="width:90%;height:80%;border: 5px solid #FFCF70FF;" />
+          <h6 href="cmg.html"><h6 class="mamsha">Mamsha Boardwalk</h6>
+          </a>
+          <!-- the description of the location -->
+          <p> Next week we are visiting Mamsha Al Saadiyat so don't forget to
+            come back to read through our <br> review of this vibrant beachfront
+            community located in the heart of the stunning Saadiyat Island.<br>
+            With a plethora of eateries offering diverse global cuisines, this
+            bustling boardwalk offers students <br> a perfect blend of food,
+            culture, and sea-side serenity. Explore our top picks of
+            budget-friendly, <br>delicious hotspots in Mamsha and enjoy a meal
+            with a view. </p>
+        </div>
+        <!--`cmng` div contains the 3rd location (coming soon) -->
+        <div class="cmg">
+          <a href="cmg.html"> <img src="images/comingsoon.png"
+              alt="coming soon..." style="width:90%; height:80%" /> </a>
+          <p> Come back soon to check out our reviews for other restaurants and
+            areas (weekly updates)! </p>
+
+        </body>
+
+        <!--javascript-->
+        <script>
+        //fade in and out title
+        window.onload = function() {
+            const title = document.getElementById("title");
+            title.classList.add("fadeInOut");
+        };
+    </script>
+      </html>
