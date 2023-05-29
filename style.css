@@ -8,7 +8,14 @@
 	width: 100%;
 	background-image: url("images/cloth.jpg");
 	background-size: cover;
-	min-height: 100vh;
+	min-height: 400vh;
+	font-family: "Playfair Display";
+}
+.main2{
+	width: 100%;
+	background-image: url("images/cloth.jpg");
+	background-size: cover;
+	min-height: 130vh;
 	font-family: "Playfair Display";
 }
 .name  {
